@@ -1,0 +1,77 @@
+/* Google Fonts */
+/* Base CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: ;
+}
+.container {
+    max-width: 1170px;
+}
+.buy-btn {
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+/* Start Header Area Here*/
+/* End Header Area Here*/
+/* Start Banner Area Here*/
+.banner {
+    background-image: url(../images/Background-img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+/* End Banner Area Here*/
+
+/* Start Smartphone Area Here*/
+.smartphone-area {
+    background-image: url(../images/Background-img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    border: none;
+    box-shadow: 2px 2px 16px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.color p {
+    color: orange;
+}
+/* End Smartphone Area Here*/
+
+/* Start Laptop Area Here*/
+.laptop-area {
+    background-image: url(../images/Background-img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Laptop Area Here*/
+
+/* Start Category Area Here*/
+.category-area {
+    background-image: url(../images/Background-img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Category Area Here*/
